@@ -91,20 +91,45 @@
         <li>SSC – Ravindhra Bharathi School, Board Of Secondary Education (Percentage: 100%)</li>
     </ul>
     <style>
-        .skills {
-            background-color: #f5fbff;
-            padding: 12px;
-            border-radius: 6px;
-            line-height: 1.7;
+        .skill {
+            margin: 10px 0;
+        }
+
+        .bar {
+            width: 100%;
+            background: #e0e0e0;
+            height: 10px;
+            border-radius: 5px;
+        }
+
+        .fill {
+            height: 10px;
+            background: #00bfa6;
+            border-radius: 5px;
         }
     </style>
     <h2 class="section-title">Technical Skills</h2>
 
-    <ul class="skills">
-        <li><b>Programming:</b> Python, Java</li>
-        <li><b>Web:</b> HTML, CSS</li>
-        <li><b>Tools:</b> VS Code, Excel, MS Office</li>
-    </ul>
+    <div class="skill">
+        Python
+        <div class="bar">
+            <div class="fill" style="width:85%"></div>
+        </div>
+    </div>
+
+    <div class="skill">
+        Java
+        <div class="bar">
+            <div class="fill" style="width:70%"></div>
+        </div>
+    </div>
+
+    <div class="skill">
+        HTML & CSS
+        <div class="bar">
+            <div class="fill" style="width:80%"></div>
+        </div>
+    </div>
 
     <h2 class="section-title">Soft Skills</h2>
 
@@ -115,21 +140,22 @@
         <li>Leadership</li>
     </ul>
     <style>
-        .project {
-            background-color: #f5fbff;
-            padding: 12px;
-            border-radius: 6px;
-            line-height: 1.6;
+        .project-card {
+            background: #f5fbff;
+            padding: 15px;
+            border-radius: 8px;
+            margin-top: 10px;
+            box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
         }
     </style>
     <h2 class="section-title">Projects</h2>
 
-    <div class="project">
-        <b>Deep Fake Detection Application</b><br>
-        Developed a machine learning based application to detect deepfake images and videos during the Datathon
-        conducted by DataZen.
-        The system analyzes visual patterns and inconsistencies to identify manipulated media and improve digital
-        content authenticity.
+    <div class="project-card">
+        <h3>Deep Fake Detection Application</h3>
+        <p>
+            Developed a machine learning model to detect deepfake media during the DataZen Datathon.
+            The system analyzes visual inconsistencies to identify manipulated images and videos.
+        </p>
     </div>
     <style>
         .certifications {
